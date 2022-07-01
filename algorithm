@@ -1,0 +1,15 @@
+STEP 1: Start[map function]
+STEP 2: Identify nodes in network.
+STEP 3: If nodes in range(belongs to the same network)
+STEP 4: Set THRESHOLD=1000000
+ THRESHOLD=UDP-PACKETS/SECOND
+ MINIMUM=500
+ MAXIMUM=1000000
+ DEFAULT=10000
+STEP 5: CAPTURE packets.
+STEP 6: If packet not of standard type[Reduce function]
+Notify Malformed_ packet.
+STEP 7: Identify UDP_PACKET.
+STEP 8: If UDP_PACKET > THRESHOLD
+Notify UDP_FLOOD_ATTACK
+STEP 9: Stop
