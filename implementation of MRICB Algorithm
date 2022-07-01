@@ -1,0 +1,14 @@
+The MRICB algorithm is implemented in java. Hadoop is Java
+based platform which needs to face the challenges like
+efficiency, accuracy, security. Since Java meets all the
+challenges because of its enhanced features. Java has a set of packages which will solve all requirements from the user side.
+The package Remote method invocation is used to make the
+establishment between the nodes in the network. There are
+different types of nodes are available in the network which
+want to communicate with server. It has the interface which has
+the method detection which has the implementation part of
+UDP (S.Navale, 2012)]flood detection. It accepts the inputs as
+UDP packet from the port 80 and checks the condition that it
+should not exceed the threshold 100000 as the maximum. If it
+exceeds the exception will throw as UDP Flood attack
+detection
